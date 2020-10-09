@@ -1,0 +1,8 @@
+bazel-*
+
+.DS_Store
+
+# https://tulsi.bazel.build/docs/faq.html
+*.tulsiconfig-user
+
+*.xcodeproj
