@@ -12,9 +12,11 @@ ios_application(
     name = "ios",
     app_icons = [],
     bundle_id = "com.example.app",
-    families = ["iphone", "ipad"],
+    families = [
+        "iphone",
+        "ipad",
+    ],
     infoplists = [":Info.plist"],
-    minimum_os_version = "13.0",
-    launch_storyboard = ":Launch.storyboard",
+    minimum_os_version = "14.0",
     deps = [":app"],
 )
